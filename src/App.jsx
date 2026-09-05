@@ -152,7 +152,6 @@ export default function App() {
       <footer className="relative z-10 border-t border-structural glass-panel py-4 sm:py-5 px-5 sm:px-8">
         <div className="max-w-7xl mx-auto flex justify-between items-center text-[10px] sm:text-xs tracking-[0.15em] sm:tracking-[0.2em] text-pink-300/40 font-mono uppercase">
           <span>// 2026 Automate</span>
-          <span>Status: Operational</span>
         </div>
       </footer>
     </div>
