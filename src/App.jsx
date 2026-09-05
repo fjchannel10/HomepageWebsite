@@ -111,20 +111,20 @@ export default function App() {
             <span className="text-neon-glow">Automate</span>
           </div>
           <a 
-            href="https://discord.com" 
+            href="https://snapchat.com" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full border border-structural bg-pink-950/30 text-[10px] sm:text-xs font-mono tracking-wider sm:tracking-widest text-pink-400 hover:border-[#ff007f]/50 transition-colors"
           >
             <span className="w-2 h-2 rounded-full bg-[#ff007f] animate-ping" />
-            DISCORD
+            SNAPCHAT
           </a>
         </div>
       </nav>
 
       {/* HERO TITLE SECTION */}
       <main className="relative z-10 my-auto px-5 sm:px-8 max-w-7xl mx-auto w-full parallax-layer py-12 sm:py-0">
-        <div className="max-w-4xl">
+        <div className="max-w-6xl">
           {/* Eyebrow Label */}
           <div className="hero-element flex items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
             <span className="h-px w-8 sm:w-12 bg-[#ff007f] shadow-[0_0_10px_#ff007f]"></span>
@@ -134,9 +134,9 @@ export default function App() {
           </div>
           
           {/* Primary Headline */}
-          <h1 className="hero-element text-4xl sm:text-7xl md:text-8xl lg:text-9xl font-extrabold leading-[1.0] sm:leading-[0.95] tracking-tight mb-6 sm:mb-8">
+          <h1 className="hero-element text-6xl sm:text-[8rem] md:text-[11rem] lg:text-[14rem] font-extrabold leading-[0.85] tracking-tight mb-6 sm:mb-8 text-pink-300">
             AUTOMATE <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-pink-200 to-[#ff007f] text-neon-glow">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-pink-200 to-[#ff007f] text-neon-glow text-3xl sm:text-6xl md:text-7xl lg:text-8xl">
               Media & Growth Lab.
             </span>
           </h1>
@@ -152,6 +152,7 @@ export default function App() {
       <footer className="relative z-10 border-t border-structural glass-panel py-4 sm:py-5 px-5 sm:px-8">
         <div className="max-w-7xl mx-auto flex justify-between items-center text-[10px] sm:text-xs tracking-[0.15em] sm:tracking-[0.2em] text-pink-300/40 font-mono uppercase">
           <span>// 2026 Automate</span>
+          <span>Status: Operational</span>
         </div>
       </footer>
     </div>
